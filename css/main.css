@@ -110,6 +110,7 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   display: flex;
   justify-content: space-between;
@@ -129,10 +130,40 @@ body {
 }
 
 .div-1, .div-2{
-    border-right: 1px solid #eee;
+    border-right: 1px dotted #eee;
 }
 
+.intro {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 2em;
+    color: papayawhip;
+}
 
+h1{
+    font-weight: 200;
+    font-style: italic;
+    margin: 0;
+}
+
+.bio{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+
+#contact{
+    font-family: "Manrope", sans-serif;
+} 
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 20px 50px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -148,7 +179,7 @@ body {
 
 /*
  * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ * http://snook.ca/a rchives/html_and_css/hiding-content-for-accessibility
  */
 
 .visuallyhidden {
